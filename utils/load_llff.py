@@ -1,9 +1,11 @@
 ########## Slightly modified version of LLFF data loading code 
 ##########  see https://github.com/Fyusion/LLFF for original
 
-import numpy as np
 import os
+
 import imageio
+import numpy as np
+
 
 def _minify(basedir, factors=[], resolutions=[]):
   needtoload = False
